@@ -1,0 +1,12 @@
+* { 
+	background: black;
+	font-family: monospace;
+	color : wheat;
+}
+
+
+.StaticListDiv
+	{
+	display:flex;
+	flex-direction:column;
+	}

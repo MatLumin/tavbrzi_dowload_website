@@ -1,0 +1,11 @@
+
+<link rel="stylesheet" href="static/global.css">
+
+<title>download center</title>
+
+
+<div class="StaticListDiv">
+{% for filename in statics %}
+	<a href="{{'/static/'+filename}}">{{filename}}</a>
+{% endfor%}
+</div>
